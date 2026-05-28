@@ -52,5 +52,8 @@
       "x": "https://x.com/yourcompany",
       "linkedin": "https://linkedin.com/company/yourcompany"
     }
+  },
+  "api": {
+    "openapi": "https://beta-api.picktrip.app/openapi.json"
   }
 }
