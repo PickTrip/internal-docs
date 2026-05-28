@@ -7,15 +7,23 @@
     "light": "#26BD6C",
     "dark": "#166E3F"
   },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "favicon": "/favicon.ico",
+  "api": {
+    "openapi": "https://beta-api.picktrip.app/openapi.json"
+  },
   "icons": {
     "library": "lucide"
   },
+  "contextual": {
+    "options": ["copy", "view", "assistant", "mcp", "add-mcp"],
+    "display": "header"
+  },
   "metadata": {
     "timestamp": true
-  },
-  "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
     "tabs": [
@@ -24,36 +32,10 @@
         "groups": [
           {
             "group": "API Reference",
-            "pages": []
+            "openapi": "https://beta-api.picktrip.app/openapi.json"
           }
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Submit IT ticket",
-        "href": "/it-security/access-requests"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Employee portal",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
-    }
-  },
-  "api": {
-    "openapi": "https://beta-api.picktrip.app/openapi.json"
   }
 }
